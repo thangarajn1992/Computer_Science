@@ -1,4 +1,9 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Computer Science](README.md)
+* [Compiler](compiler.md)
+
+## Kernel
+
+* [Untitled](kernel/untitled.md)
 
