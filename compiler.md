@@ -2,13 +2,13 @@
 
 Compiler is a software which converts a program written in high level language \(source language\) to low level language \(Object/Target/Machine Language\).
 
-The Hardware\(Machine\) knows a language that is hard for us to grasp, consequently we tend to write programs in high-level language, that is much less complicated for us to comprehend and maintain in thoughts. Compiler's Job is to convert from a language we unnderstand to the language the machine understands.
+The Hardware\(Machine\) knows a language that is hard for us to grasp, consequently we tend to write programs in high-level language, that is much less complicated for us to comprehend and maintain in thoughts. Compiler's Job is to convert from a language we understand to the language the machine understands.
 
 ![Conversion from HLL to LLL](https://media.geeksforgeeks.org/wp-content/uploads/compilerP.jpg)
 
 ### Interpreter vs Compiler
 
-An interpreter converts high level language into low level language, just like a compiler. But they are different in the way they read the input. The Compiler reads the input in one go, does the processing and executes the source code whereas the interpreter does the same line bby line. Compiler scands the entire program and translates it as a while into machine code whereas an interpreter translates the program one statement at a time. Interpreted programs are usually slower than compiled ones.
+An interpreter converts high level language into low level language, just like a compiler. But they are different in the way they read the input. The Compiler reads the input in one go, does the processing and executes the source code whereas the interpreter does the same line by line. Compiler scans the entire program and translates it as a while into machine code whereas an interpreter translates the program one statement at a time. Interpreted programs are usually slower than compiled ones.
 
 ## Phases of Compiler
 
@@ -34,7 +34,7 @@ In this analysis phase, based on a collective meaning, the tokens are categorize
 
 #### 3. Semantic Analysis
 
-This phase is used to check whether the components of the source program are meangingful or not.
+This phase is used to check whether the components of the source program are meaningful or not.
 
 ### 1. Lexical Analyzer
 
@@ -54,7 +54,7 @@ Examples of Tokens:
 * Keywords - for, while, if etc
 * Identifier - Variable name, function name 
 * Operators - '+', '++', '-'
-* Seperators: , ; etc
+* Separators: , ; etc
 
 Examples of Non-Tokens:
 
@@ -73,7 +73,7 @@ The sequence of characters matched by a pattern to form the corresponding token 
 
 ![](.gitbook/assets/image%20%282%29.png)
 
-The lexical analyzer identifies the error with the help of the automation machine and the grammer of the given language onn which it is based like C, C++, and gives row number and col number of the error.
+The lexical analyzer identifies the error with the help of the automation machine and the grammar of the given language onn which it is based like C, C++, and gives row number and col number of the error.
 
 **a = b + c** ;                It will generate token sequence like this:
 
@@ -117,7 +117,7 @@ Answer: Total number of token: 27.
 
 Syntax Analysis or Parsing checks the syntactical structure of the given input i.e whether the given input is in correct syntax or not. It does so by building a data structure, called a **Parse tree or Syntax tree**. The parse tree is constructed by using the pre-defined Grammar of the language and the input string. If the given input string can be produced with the help of the syntax tree \(in the derivation process\), the input string is found to be in the correct syntax. If not, error is reported by syntax analyzer.
 
-The Grammer for a Language consists of Production rules.
+The Grammar for a Language consists of Production rules.
 
 
 
