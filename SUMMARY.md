@@ -2,9 +2,9 @@
 
 * [Computer Science](README.md)
 
-## Kernel
+## Operating System
 
-* [Untitled](kernel/untitled.md)
+* [Untitled](operating_system/untitled.md)
 
 ## Compilation
 
