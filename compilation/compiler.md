@@ -71,7 +71,7 @@ The sequence of characters matched by a pattern to form the corresponding token 
 3. Remove comments
 4. It also provides help in generating error messages by providing row numbers and column numbers.
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../assets/image%20%282%29.png)
 
 The lexical analyzer identifies the error with the help of the automation machine and the grammar of the given language on which it is based like C, C++, and gives row number and col number of the error.
 
