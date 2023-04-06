@@ -127,7 +127,7 @@ The Grammar for a Language consists of Production rules.
 
 Now the parser attempts to construct syntax tree from this grammar for the given input string. It uses the given production rules and applies those as needed to generate the string. To generate string "cad" it uses the rules as shown in the given diagram:
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../assets/image%20%283%29.png)
 
 In Step \(iii\), the production rule A-&gt;bc was not a suitable one to apply, here the parser needs to backtrack, and apply the next production rule available with A which is shown in the step iv, and the string "cad" is produced.
 
@@ -137,7 +137,7 @@ But backtrack is really a complex process to implement. There is an easier way t
 
 It verifies the parse tree, whether it is meaningful or not. It furthermore produces a verified parse tree. It also does **type checking, Label checking and Flow control checking.**
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../assets/image%20%284%29.png)
 
 ### **4. Intermediate Code Generator**
 
@@ -174,7 +174,7 @@ T1,T2,T3 are temporary variables.
 
 It is nothing more than condensed form of a parse tree. The operator and keyword nodes of the parse tree are moved to their parents and a chain of single productions is replaced bby a single link. In syntax tree the internal nodes are operators and child nodes are operands. For eg., x = \(a + b\*c\) / \(a - b\*c\)
 
-![Syntax Tree](../.gitbook/assets/image%20%285%29.png)
+![Syntax Tree](../assets/image%20%285%29.png)
 
 ### Synthesis Phase
 
@@ -330,6 +330,3 @@ Runs on a machine 'A' and produces a code for another machine 'BB'. It is capabl
 ### Source-to-souce Compiler / Transcompiler/ Transpiler
 
 Translates source code written in one programming language into source code of annother programming language.
-
-
-
