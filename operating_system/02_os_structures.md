@@ -293,9 +293,3 @@ Advantages of this design:
 1. Allows kernel to provide core services yet also allows certain features to be implemented dynamically.
 2. It resembles a layered system in that each kernel section has defined, protected interfaces, but it is more flexible than a layered system in that any module can call any other module.
 3. It is like micorkernel in that the primary module has only core functions and knowledge of how to load and communicate with other modules, but it is more efficient because modules do not need to invoke message passing in order to communicate.
-
-
-
-
-
-
